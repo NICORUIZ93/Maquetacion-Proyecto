@@ -1,0 +1,88 @@
+* {
+  padding: 5px;
+  margin: 1vw;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://i.picsum.photos/id/1021/2048/1206.jpg?hmac=fqT2NWHx783Pily1V_39ug_GFH1A4GlbmOMu8NWB3Ts");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.padre {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.header {
+  display: flex;
+  flex-flow: row;
+  align-content: flex-end;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.header img {
+  background: #393e46;
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.header h2 {
+  align-items: flex-end;
+  align-content: flex-end;
+  align-self: center;
+}
+
+.nav {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.nav a {
+  flex: 1 1 auto;
+  justify-self: auto;
+  align-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+.secciones {
+  display: flex;
+  flex-flow: column;
+}
+
+.secciones img {
+  width: 50%;
+}
+.footer {
+  display: flex;
+  margin: 1vw;
+}
+
+.redes-pie {
+  display: flexbox;
+  margin: 1vw;
+  flex: 1 1 auto;
+}
+
+.redes-pie {
+  display: flex;
+  flex-direction: row;
+}
+
+.redes-pie a {
+  flex: 1 1 auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+.redes-pie p {
+  text-align: center;
+  align-content: center;
+  align-self: center;
+  align-items: center;
+}
